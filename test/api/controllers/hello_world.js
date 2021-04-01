@@ -28,14 +28,14 @@ describe('controllers', function() {
 
         request(server)
           .get('/hello')
-          .query({ name: 'Scott'})
+          .query({ name: 'Ritesh'})
           .set('Accept', 'application/json')
           .expect('Content-Type', /json/)
           .expect(200)
           .end(function(err, res) {
             should.not.exist(err);
 
-            res.body.should.eql('Hello, Scott!');
+            res.body.should.eql('Hello, Ritesh!');
 
             done();
           });

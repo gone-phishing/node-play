@@ -1,1 +1,1 @@
-Place your controller tests in this directory.
+This section is pending or say a Work in Progress. Testing is always pending. Let's hope the original code works. Its called God's grace (gg).
